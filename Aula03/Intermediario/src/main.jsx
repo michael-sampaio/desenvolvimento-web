@@ -10,3 +10,11 @@ nome = pessoa["sobrenome"]; //expressão
 console.log(nome); //syso
 
 ReactDOM.render(pessoa, document.getElementById('root'))
+
+const lista = ["a", "b", "c", "d"];
+
+//for (let i = 0; i < lista.length; i++)
+
+for (let item of lista) {
+  console.log(item);
+}
